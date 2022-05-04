@@ -14,7 +14,7 @@ body {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
 }
 
-.background {
+#particles-bg {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -71,4 +71,18 @@ body {
 	.icon-bar a:hover {
 		background-color: #54BAB9;
 	}
+}
+
+.btn {
+	background-color: #8D8DAA;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.btn:hover {
+	background-color: #DFDFDE;
 }
