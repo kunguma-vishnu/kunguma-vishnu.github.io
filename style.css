@@ -29,20 +29,46 @@ body {
 }
 
 .icon-bar {
-	width: 90px; /* Set a specific width */ /* Dark-grey background */
+	width: 90px;
 }
   
 .icon-bar a {
-	display: block; /* Make the links appear below each other instead of side-by-side */
-	text-align: center; /* Center-align text */
-	padding: 16px; /* Add some padding */
-	transition: all 0.3s ease; /* Add transition for hover effects */
-	color: #0F0E0E; /* White text color */
-	font-size: 36px; /* Increased font-size */
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: #0F0E0E;
+	font-size: 36px;
 	border-radius: 50px;
 }
   
 .icon-bar a:hover {
-	background-color: #54BAB9; /* Add a hover color */
+	background-color: #54BAB9;
 }
   
+@media only screen and (max-width: 550px) {
+	.footer-box {
+		position: fixed;
+  		left: 12%;
+  		bottom: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.icon-bar {
+		width: 100%;
+	}
+	  
+	.icon-bar a {
+		float: left;
+		text-align: center;
+		width: 20%;
+		padding: 12px 0;
+		transition: all 0.3s ease;
+		color: #0F0E0E;
+		font-size: 36px;
+	}
+	  
+	.icon-bar a:hover {
+		background-color: #54BAB9;
+	}
+}
